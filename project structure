@@ -1,0 +1,11 @@
+coding_platform/
+│
+├── src/
+│   ├── Main.java                # Entry point for submission execution
+│   ├── Problem.java             # Problem representation
+│   ├── ProblemBank.java         # Fetch problems from S3 dynamically
+│   └── SubmissionManager.java   # Handles submissions & leaderboard
+├── sql/
+│   └── leaderboard.sql          # SQL leaderboard table
+├── Dockerfile                   # For secure Java execution
+└── README.md

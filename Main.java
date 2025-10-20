@@ -2,8 +2,8 @@ package coding_platform;
 
 public class Main {
     public static void main(String[] args) {
-        String username = "testuser";
-        String problemFile = "problem1.txt"; // S3 key
+        String username = "kamal";
+        String problemFile = "s3 key of the problem"; // S3 key
 
         // Fetch problem dynamically from S3
         Problem problem = ProblemBank.fetchProblem(problemFile);

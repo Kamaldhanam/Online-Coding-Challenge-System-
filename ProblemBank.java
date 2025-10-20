@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class ProblemBank {
-    private static final String BUCKET_NAME = "your-s3-bucket-name";
+    private static final String BUCKET_NAME = "kamals-s3-bucketname";
 
     public static Problem fetchProblem(String problemFile) {
         try {

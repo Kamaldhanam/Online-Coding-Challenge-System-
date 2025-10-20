@@ -10,7 +10,7 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 
 public class SubmissionManager {
 
-    private static final String BUCKET_NAME = "your-s3-bucket-name";
+    private static final String BUCKET_NAME = "kamals-s3-bucketname";
 
     public static void uploadToS3(String filePath, String username, String problemTitle) {
         try {
@@ -35,7 +35,7 @@ public class SubmissionManager {
     public static void updateLeaderboard(String username, String problemTitle, int score) {
         try {
             Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/coding_platform", "root", "yourpassword"
+                    "jdbc:mysql://localhost:3306/coding_platform", "kamal", "kamal@123"
             );
 
             PreparedStatement stmt = conn.prepareStatement(

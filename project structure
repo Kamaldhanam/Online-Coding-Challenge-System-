@@ -6,6 +6,5 @@ coding_platform/
 │   ├── ProblemBank.java         # Fetch problems from S3 dynamically
 │   └── SubmissionManager.java   # Handles submissions & leaderboard
 ├── sql/
-│   └── leaderboard.sql          # SQL leaderboard table
-├── Dockerfile                   # For secure Java execution
-└── README.md
+    └── leaderboard.sql          # SQL leaderboard table
+
